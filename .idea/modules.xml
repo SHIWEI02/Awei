@@ -2,7 +2,18 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/awei.iml" filepath="$PROJECT_DIR$/.idea/modules/awei.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/framework/awei.framework.iml" filepath="$PROJECT_DIR$/.idea/modules/framework/awei.framework.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/framework/gateway/awei.framework.gateway.iml" filepath="$PROJECT_DIR$/.idea/modules/framework/gateway/awei.framework.gateway.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/framework/gateway/awei.framework.gateway.main.iml" filepath="$PROJECT_DIR$/.idea/modules/framework/gateway/awei.framework.gateway.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/framework/gateway/awei.framework.gateway.test.iml" filepath="$PROJECT_DIR$/.idea/modules/framework/gateway/awei.framework.gateway.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/framework/awei.framework.main.iml" filepath="$PROJECT_DIR$/.idea/modules/framework/awei.framework.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/framework/nacos/awei.framework.nacos.iml" filepath="$PROJECT_DIR$/.idea/modules/framework/nacos/awei.framework.nacos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/framework/nacos/awei.framework.nacos.main.iml" filepath="$PROJECT_DIR$/.idea/modules/framework/nacos/awei.framework.nacos.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/framework/nacos/awei.framework.nacos.test.iml" filepath="$PROJECT_DIR$/.idea/modules/framework/nacos/awei.framework.nacos.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/framework/awei.framework.test.iml" filepath="$PROJECT_DIR$/.idea/modules/framework/awei.framework.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/awei.main.iml" filepath="$PROJECT_DIR$/.idea/modules/awei.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/awei.test.iml" filepath="$PROJECT_DIR$/.idea/modules/awei.test.iml" />
     </modules>
   </component>
 </project>
