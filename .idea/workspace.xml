@@ -156,6 +156,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="GatewayApplication (2)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="cn.learn.awei.awei.framework.gateway.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.learn.awei.framework.gateway.GatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="GatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="awei.framework.gateway.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="cn.learn.awei.framework.gateway.GatewayApplication" />
