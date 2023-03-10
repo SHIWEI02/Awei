@@ -1,0 +1,7 @@
+rootProject.name = "awei"
+include ':framework'
+include ':framework:gateway'
+findProject(':framework:gateway')?.name = 'gateway'
+include ':framework:nacos'
+findProject(':framework:nacos')?.name = 'nacos'
+

@@ -1,0 +1,13 @@
+server:
+  port: 8096
+
+#微服务名称
+spring:
+  cloud:
+    gateway:
+      routes:
+        #路径匹配
+        - id: find
+          uri: https://blog.csdn.net
+          predicates:
+            - Path=/common
