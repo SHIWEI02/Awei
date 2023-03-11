@@ -1,4 +1,15 @@
+archivesBaseName = 'framework'
+// 取消打包为 bootJar 可独立运行包
+// 如果是需要独立运行的jar包，这个就改为true
+bootJar.enabled = false
+
+// 组件公共模块 依赖
 dependencies {
-    implementation("org.springframework.cloud:spring-cloud-dependencies:${springCloudVersion}")
-    implementation("com.alibaba.cloud:spring-cloud-alibaba-dependencies:${springCloudAlibabaVersion}")
+    // spring cloud
+    implementation("org.springframework.cloud:spring-cloud-dependencies")
+    // spring cloud alibaba
+    implementation("com.alibaba.cloud:spring-cloud-alibaba-dependencies")
+    // nacos 服务注册 配置中心
+    implementation("com.alibaba.cloud:spring-cloud-starter-alibaba-nacos-config")
+    implementation("com.alibaba.cloud:spring-cloud-starter-alibaba-nacos-discovery")
 }

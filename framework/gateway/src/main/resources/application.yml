@@ -1,13 +1,27 @@
 server:
-  port: 8096
-
-#微服务名称
+  port: 8089
 spring:
+  application:
+    name: awei-gateway
+  profiles:
+    active: local
   cloud:
-    gateway:
-      routes:
-        #路径匹配
-        - id: find
-          uri: https://blog.csdn.net
-          predicates:
-            - Path=/common
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+      config:
+        server-addr: 127.0.0.1:8848
+        file-extension: yml
+    sentinel:
+      eager: true
+      transport:
+        dashboard: 127.0.0.1:8718
+        #这里的配置时sentinel整合网关的时候用到的配置，暂时不用看
+      datasource:
+        ds1:
+          nacos:
+            server-addr: localhost:8848
+            dataId: sentinel-poem-gateway
+            group: DEFAULT_GROUP
+            data-type: json
+            rule-type: flow

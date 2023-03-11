@@ -1,6 +1,10 @@
+archivesBaseName = 'gateway'
+// 需要独立打包
+bootJar.enabled = true
+
 dependencies {
+    // 引入公共模块
     implementation project(":framework")
-    compileOnly 'org.projectlombok:lombok'
-    annotationProcessor 'org.projectlombok:lombok'
+    // getaway
     implementation("org.springframework.cloud:spring-cloud-starter-gateway")
 }
