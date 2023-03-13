@@ -56,6 +56,8 @@ subprojects {
             // nacos 服务注册 配置中心
             dependency "com.alibaba.cloud:spring-cloud-starter-alibaba-nacos-config:${nacosVersion}"
             dependency "com.alibaba.cloud:spring-cloud-starter-alibaba-nacos-discovery:${nacosVersion}"
+
+            dependency "org.springframework.cloud:spring-cloud-starter-gateway:${gatewayVersion}"
         }
     }
 

@@ -1,7 +1,8 @@
 rootProject.name = "awei"
 include ':framework'
 include ':framework:gateway'
-findProject(':framework:gateway')?.name = 'getaway'
-include ':framework:nacos'
-findProject(':framework:nacos')?.name = 'nacos'
+findProject(':framework:gateway')?.name = 'gateway'
+include ':business'
+include ':business:auth'
+findProject(':business:auth')?.name = 'auth'
 

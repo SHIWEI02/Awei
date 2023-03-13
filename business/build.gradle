@@ -1,0 +1,4 @@
+archivesBaseName = 'business'
+// 需要独立打包
+bootJar.enabled = false
+

@@ -1,7 +1,9 @@
 # application.yml
+server:
+  port: 8081
 spring:
   application:
-    name: gateway
+    name: auth
   profiles:
     active: local
   cloud:
